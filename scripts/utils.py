@@ -77,7 +77,7 @@ def write_fasta(df: pd.DataFrame, name_file: str) -> None:
 
     data = df.apply(lambda x: pull_data(x), axis=1).tolist()
 
-    with open(f"data/fasta/{name_file}", "w") as file:
+    with open(name_file, "w") as file:
         for item in data:
             file.write(">" + f"{item[0]}")
             file.write("\n")
