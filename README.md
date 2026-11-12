@@ -51,11 +51,11 @@ __Output__
 
 The output will be saved in the `data/prediction` directory with the filename `Human-dna-binders.csv`
 
-__Input Requirements__
+### Input Requirements
 
 Input sequences must be in FASTA __UniProt__ format.
 Duplicate sequences and identifiers will be automatically removed.
 
-__Citation__
+## Citation
 
 TBA
