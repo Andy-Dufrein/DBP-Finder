@@ -9,32 +9,11 @@
 data/clusters/*
 !data/clusters/.gitkeep
 
-# FASTA data
-data/fasta/*
-!data/fasta/Human-dna-binders.fasta
-!data/fasta/.gitkeep
-
-# Papers data
-data/DBP_papers_data
-
 # Embeddings
 data/embeddings/ankh_embeddings/*
 !data/embeddings/ankh_embeddings/.gitkeep
 data/embeddings/esm_embeddings/
 data/embeddings/prot5_embeddings/
-
-# Input CSV embeddings
-data/embeddings/input_csv/*
-!data/embeddings/input_csv/pdb1000.csv
-!data/embeddings/input_csv/pdb20000.csv
-!data/embeddings/input_csv/pdb2272.csv
-!data/embeddings/input_csv/train_p3.csv
-
-# Interpro, nakb, and prediction data
-data/interpro_data/
-data/nakb/
-data/predictions/
-data/proteinfer/
 
 # prediction
 data/prediction/*
@@ -47,24 +26,6 @@ data/splits/*
 !data/splits/train_pdb2272.csv
 !data/splits/train_pdb20000.csv
 !data/splits/train_p3.csv
-
-# Uniprot data
-data/uniprot/*
-!data/uniprot/go_0003677_swissprot.fasta
-!data/uniprot/notgo_0003723_notgo_0003677_swissprot.fasta
-
-# Processed data
-data/processed/*
-!data/processed/neg_samples_annot.yml
-
-# Other data
-data/not_annotated/
-data/taxon
-data/go_terms/uniprot_annotation_all_exPDB186.tsv
-data/test_cases
-data/external/
-
-data/Tools Data
 
 hmmer
 notes.txt
